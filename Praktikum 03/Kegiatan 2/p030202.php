@@ -14,7 +14,7 @@
 		return 0;
 	}
 
-	$denda = hitungDenda("2021-03-20", "2021-03-15");
+	$denda = hitungDenda("2021-03-20", "2021-03-23");
 	echo "Besarnya denda adalah: Rp $denda";
 
 ?>
