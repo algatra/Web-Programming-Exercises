@@ -1,9 +1,10 @@
 <?php 
 
-// V = 3.14 r^2 t
 	$name = $_GET['n'];
-	$volume = 3.14 * (($_GET['d'] / 2)**2) * $_GET['t'];
+	$diameter = $_GET['d'];
+	$tinggi = $_GET['t'];
+	$volume = 3.14 * (($diameter / 2)**2) * $tinggi;
 
-	echo "<h2>Volume Tabung $name = $volume</h2>";
+	echo "<h2>Volume Tabung $name dengan diameter $diameter dan tinggi $tinggi adalah $volume satuan luas</h2>";
 
  ?>
