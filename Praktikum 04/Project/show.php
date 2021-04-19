@@ -42,6 +42,7 @@
 			  	$count++;
 			}
 			fclose($myfile);
+			echo "Jumlah Data : ".($count-1);
 
 		?>
 	</table>
