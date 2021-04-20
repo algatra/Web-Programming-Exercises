@@ -15,18 +15,18 @@
 		
 	<?php 
 
-		$myfile = fopen("datatabung.dat", "r") or die("Tidak bisa buka file!");
-		while(!feof($myfile)) {
+		$al = fopen("datatabung.dat", "r") or die("Tidak bisa buka file!");
+		while(!feof($al)) {
 			echo "<tr>";
-		  	$data = fgets($myfile);
-		  	$data = explode(",",$data);
-		  	for ($i=0; $i < sizeof($data); $i++) { 
-		  		echo "<td> $data[$i] </td>";
+		  	$databung = fgets($al);
+		  	$databung = explode(",",$databung);
+		  	for ($i=0; $i < sizeof($databung); $i++) { 
+		  		echo "<td> $databung[$i] </td>";
 		  	}
-	  		echo "<td><a href='http://localhost/pemweb/p/volume.php?n=$data[0]&d=$data[1]&t=$data[2]'>view</a></td>";
+	  		echo "<td><a href='volume.php?n=$databung[0]&d=$databung[1]&t=$databung[2]'>view</a></td>";
 		  	echo "</tr>";
 	  	}
-	  	fclose($myfile);
+	  	fclose($al);
 
 	 ?>
 
