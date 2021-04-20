@@ -26,11 +26,11 @@
 			}
 
 			$file = "datamhs.dat";
-			$myfile = fopen($file, "r") or die("Tidak bisa buka file!");
+			$al = fopen($file, "r") or die("Tidak bisa buka file!");
 			$count = 1;
-			while(!feof($myfile)) {
+			while(!feof($al)) {
 				echo "<tr>";
-			  	$data = fgets($myfile);
+			  	$data = fgets($al);
 			  	$data = explode("|",$data);
 			  	$umur = hitungUsia($data[2]);
 			  	echo "<td> $count </td>";
@@ -41,7 +41,7 @@
 			  	echo "</tr>";
 			  	$count++;
 			}
-			fclose($myfile);
+			fclose($al);
 			echo "Jumlah Data : ".($count-1);
 
 		?>
