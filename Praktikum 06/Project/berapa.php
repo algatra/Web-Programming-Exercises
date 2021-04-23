@@ -1,7 +1,6 @@
 <?php  
 
 	if (!isset($_COOKIE['nama'])) {
-		echo "<script>alert('Hayooo, login dulu dong');";
 		header("Location: login.php");
 	}
 
@@ -30,15 +29,14 @@
 			echo "<h2 style='color:green';>Selamat! Tebakan Kamu Benarr, Angka Itu Adalah ".$_COOKIE['bilrand']."</h2>";
 			setcookie("bilrand", null, time()+2, '/');
 			unset($_POST['bilask']);
+			
 			echo '<p><a style="text-decoration: none;" href="berapa.php">Mulai Lagi</a></p>';
 			echo '<p><a style="text-decoration: none;" href="exit.php">Exit</a></p>';
 		}
 		unset($_POST['bilask']);
 		
 	} else if (isset($_POST['bilask']) && is_numeric($_POST['bilask']) == False){
-		echo "<p>Hanya Masukkan Angka</p>";
+		echo "<p style='color:red;'>Hanya Masukkan Angka</p>";
 	}
 
 ?>
-
-<p style="text-decoration: none;"></p>
