@@ -5,7 +5,7 @@
   
 ## Documentation
 ### 1. Halaman Login
-![](UTS/imgs/login.PNG)
+![](imgs/login.PNG)
 ### 2. Halaman Utama
 ![](UTS/imgs/home.PNG)
 ### 3. Game Start
