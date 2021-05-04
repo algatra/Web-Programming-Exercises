@@ -7,24 +7,24 @@
 ### 1. Halaman Login
 ![](imgs/login.PNG)
 ### 2. Halaman Utama
-![](UTS/imgs/home.PNG)
+![](imgs/home.PNG)
 ### 3. Game Start
-![](UTS/imgs/game.PNG)
+![](imgs/game.PNG)
 ### 4. Game Over
-![](UTS/imgs/over.PNG)
+![](imgs/over.PNG)
 ### 5. Halaman Hall Of Fame
-![](UTS/imgs/hof.PNG)
+![](imgs/hof.PNG)
 
 
 # File List
 |Nama File|Fungsi|
 |--------|-------|
-|[img](UTS/imgs)|Dokumentasi Screenshot|
-|[header.php](UTS/header.php)|Script untuk mengatur template header|
-|[login.php](UTS/login.php)|Script untuk Login ke dalam game|
-|[index.php](UTS/index.php)|Menampilkan Halaman Utama|
-|[gamestart.php](UTS/gamestart.php)|Fiture utama website, Game Penjumlahan|
-|[halloffame.php](UTS/halloffame.php)|Menampilkan 10 Skor Tertinggi|
-|[footer.php](UTS/footer.php)|Tampilan Footer|
-|[func.php](UTS/func.php)|Script yang berisi kumpulan function, termasuk database|
-|[dtgame.sql](UTS/dtgame.sql)|Database yang berisi data-data untuk game ini|
+|[img](imgs)|Dokumentasi Screenshot|
+|[header.php](header.php)|Script untuk mengatur template header|
+|[login.php](login.php)|Script untuk Login ke dalam game|
+|[index.php](index.php)|Menampilkan Halaman Utama|
+|[gamestart.php](gamestart.php)|Fiture utama website, Game Penjumlahan|
+|[halloffame.php](halloffame.php)|Menampilkan 10 Skor Tertinggi|
+|[footer.php](footer.php)|Tampilan Footer|
+|[func.php](func.php)|Script yang berisi kumpulan function, termasuk database|
+|[dtgame.sql](dtgame.sql)|Database yang berisi data-data untuk game ini|
