@@ -22,13 +22,7 @@
 				setcookie("email", null, -1);
 			}
 		}
-		unset($_SESSION['hp']);
-		unset($_SESSION['point']);
-		unset($_SESSION['hasil']);
-		unset($_SESSION['bil1']);
-		unset($_SESSION['bil2']);
-		unset($_SESSION['tebak']);
-		unset($_SESSION['stats']);
+		session_destory();
 		header("Location: index.php");
 	}
 
