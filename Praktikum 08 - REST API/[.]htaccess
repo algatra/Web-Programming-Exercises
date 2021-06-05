@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^universitas/?$ index.php [NC,L]
+RewriteRule ^universitas/([a-zA-Z0-9_-]+)/?$ ?nim=$1 [NC,L]
